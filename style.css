@@ -325,8 +325,13 @@ body p {
     position: absolute;
     z-index: 1;
     text-align: center;
+    transition: .4s;
 }
-
+.icon-chose i:hover{
+       background: #fff;
+       color: #e83b3e;
+       border-color: #e83b3e;
+}
 .choose-section {
     background: #f9fafb;
 }
